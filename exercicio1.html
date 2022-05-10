@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- saved from url=(0089)https://elearning.ulisboa.pt/pluginfile.php/702129/mod_resource/content/0/exercicio1.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>My map</title>
+
+        <link rel="stylesheet" href="./exercicio1_files/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="">
+
+        <script src="./exercicio1_files/leaflet.js.transferir" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+
+    </head>
+
+    <body>
+        <div id="mymap" style="height: 800px; position: relative; outline: none;" class="leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);"><div class="leaflet-pane leaflet-tile-pane"><div class="leaflet-layer " style="z-index: 1; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 10; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt="" role="presentation" src="./exercicio1_files/11.png" class="leaflet-tile" style="width: 256px; height: 256px; transform: translate3d(200px, 61px, 0px); opacity: 1;"><img alt="" role="presentation" src="./exercicio1_files/12.png" class="leaflet-tile" style="width: 256px; height: 256px; transform: translate3d(200px, 317px, 0px); opacity: 1;"><img alt="" role="presentation" src="./exercicio1_files/11(1).png" class="leaflet-tile" style="width: 256px; height: 256px; transform: translate3d(-56px, 61px, 0px); opacity: 1;"><img alt="" role="presentation" src="./exercicio1_files/11(2).png" class="leaflet-tile" style="width: 256px; height: 256px; transform: translate3d(456px, 61px, 0px); opacity: 1;"><img alt="" role="presentation" src="./exercicio1_files/12(1).png" class="leaflet-tile" style="width: 256px; height: 256px; transform: translate3d(-56px, 317px, 0px); opacity: 1;"><img alt="" role="presentation" src="./exercicio1_files/12(2).png" class="leaflet-tile" style="width: 256px; height: 256px; transform: translate3d(456px, 317px, 0px); opacity: 1;"><img alt="" role="presentation" src="./exercicio1_files/10.png" class="leaflet-tile" style="width: 256px; height: 256px; transform: translate3d(200px, -195px, 0px); opacity: 1;"><img alt="" role="presentation" src="./exercicio1_files/13.png" class="leaflet-tile" style="width: 256px; height: 256px; transform: translate3d(200px, 573px, 0px); opacity: 1;"><img alt="" role="presentation" src="./exercicio1_files/10(1).png" class="leaflet-tile" style="width: 256px; height: 256px; transform: translate3d(-56px, -195px, 0px); opacity: 1;"><img alt="" role="presentation" src="./exercicio1_files/10(2).png" class="leaflet-tile" style="width: 256px; height: 256px; transform: translate3d(456px, -195px, 0px); opacity: 1;"><img alt="" role="presentation" src="./exercicio1_files/13(1).png" class="leaflet-tile" style="width: 256px; height: 256px; transform: translate3d(-56px, 573px, 0px); opacity: 1;"><img alt="" role="presentation" src="./exercicio1_files/13(2).png" class="leaflet-tile" style="width: 256px; height: 256px; transform: translate3d(456px, 573px, 0px); opacity: 1;"></div></div></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-overlay-pane"></div><div class="leaflet-pane leaflet-marker-pane"></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="https://elearning.ulisboa.pt/pluginfile.php/702129/mod_resource/content/0/exercicio1.html#" title="Zoom in" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out" href="https://elearning.ulisboa.pt/pluginfile.php/702129/mod_resource/content/0/exercicio1.html#" title="Zoom out" role="button" aria-label="Zoom out">−</a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com/" title="A JS library for interactive maps">Leaflet</a> | Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.</div></div></div></div>
+
+        <script type="text/javascript">
+
+            var map = L.map('mymap', {
+                center: [38.1625228, -96.9633171],
+                zoom: 5
+            });
+
+            L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png', {
+                attribution: 'Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.',
+                maxZoom: 10,
+                minZoom: 4
+            }).addTo(map);
+
+        </script>
+
+    
+
+</body></html>
